@@ -105,7 +105,7 @@ THREE.StereoEffect = function ( renderer ) {
 		//
 
 		renderer.setViewport( 0, 0, _width * 2, _height );
-		renderer.clear();
+		//renderer.clear();
 
 		renderer.setViewport( 0, 0, _width, _height );
 		renderer.render( scene, _cameraL );
