@@ -29,7 +29,6 @@
         Math.abs(deviceOrientation.beta - lastOrientation.beta) > 5 ||
         Math.abs(deviceOrientation.gamma - lastOrientation.gamma) > 5 
        ) {
-        console.log("onDeviceOrientationChangeEvent", JSON.stringify(evt));
         lastOrientation = {
             alpha: deviceOrientation.alpha,
             beta: deviceOrientation.beta,
